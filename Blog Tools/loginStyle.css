@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+#loginBox{
+	width: 350px;
+	height: 300px;
+	margin: auto;
+	background: #FCFCFC;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E3E3E3;
+	border-radius: 10px;
+}
+#loginTitle{
+	margin-top: 10px;
+	text-align: center;
+	font-family: Pompiere;
+	font-weight: bold;
+	font-size: 24px;
+}
+#loginSubText{
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}
+#loginForm{
+	width: 250px;
+	height: 200px;
+	margin: auto;
+	margin-top: 75px;
+	font-family: Karla;
+}
+#loginForm input{
+	width: 123px;
+	font-family: Yanone Kaffeesatz;
+	font-size: 14px;
+}
+#loginUsernameContainer{
+	
+}
+#loginPasswordContainer{
+	
+}
+#loginButton input{
+	width: 70px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 90px;
+	background: #E3E3E3;
+	border-style: solid;
+	border-width: 1px;
+	border-color: 
+	font-size: 16px;
+}

@@ -1,0 +1,165 @@
+@import "compass/css3/";
+
+/* Colors */
+$c_primary: #458a97;
+$c_secondary: #4ad391;
+$c_primaryText: lighten($c_primary, 30%);
+$c_secondaryText: lighten($c_primary, 10%);
+$c_tertiaryText: lighten($c_secondary, 20%);
+$c_quaternaryText: lighten(#8e44ad, 10%);
+
+
+/* Fonts */
+$f_Oleo: 'Oleo Script', sans-serif;
+$f_Lobster: 'Lobster', cursive;
+$f_Sans: 'Open Sans', sans-serif;
+$f_Genica: Genica;
+
+span{
+	display: block;
+	height: 50px;
+	width: 100%;
+}
+
+#logos{
+	margin-top: -900px;
+	margin-left: 420px;
+}
+
+#logos2{
+	margin-top: -900px;
+	margin-left: 740px;
+}
+
+.logo{
+	width: 270px;
+	height: 125px;
+	margin-top: 25px;
+	margin-left: 20px;
+	background: white;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #ecf0f1;
+	
+	img{
+		margin-top: 23px;
+		margin-left: 23px;
+	}
+	
+	.one{
+		width: 110px;
+		height: 110px;
+	}
+	
+	.two{
+		width: 110px;
+		height: 110px;
+	}
+}
+
+.two{
+	width: 170px;
+	height: 110px;
+	margin-top: 7px;
+	display: inline-block;
+	background: $c_primary;
+}
+
+.one{
+	width: 170px;
+	height: 110px;
+	margin-top: 7px;
+	margin-left: 24px;
+	display: inline-block;
+	background: $c_secondary;
+}
+
+.fonts{
+	width: 390px;
+	height: 125px;
+	margin-top: 25px;
+	background: white;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #ecf0f1;
+}
+
+.f_Oleo{
+	font-family: $f_Oleo;
+}
+
+.f_Lobster{
+	font-family: $f_Lobster;
+}
+
+.f_Sans{
+	font-family: $f_Sans;
+}
+
+.f_Genica{
+	font-family: $f_Genica;
+}
+
+
+.c_primaryText{
+	color: $c_primaryText;
+}
+
+.c_secondaryText{
+	color: $c_secondaryText;
+}
+
+.c_tertiaryText{
+	color: $c_tertiaryText;
+}
+
+.c_quaternaryText{
+	color: $c_quaternaryText;
+}
+
+.c_quinaryText{
+	color: $c_secondary;
+}
+
+body{
+	padding: 0;
+	padding-left: calc(50% - 485px);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+	background: $c_primary;
+}
+
+#colors{
+	width: 250px;
+	height: 100px;
+	background: white;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #ecf0f1;
+}
+
+.c_primary{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 35px;
+	border: none;
+	background: $c_primary;
+}
+
+.c_secondary{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-left: 15px;
+	border: none;
+	background: $c_secondary;
+}
+
+.font{
+	font-size: 18px;
+	margin-top: 2px;
+	margin-left: 10px;
+}

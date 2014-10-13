@@ -1,0 +1,170 @@
+/* Colors */
+/* Fonts */
+/* line 18, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+span {
+  display: block;
+  height: 50px;
+  width: 100%;
+}
+
+/* line 24, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+#logos {
+  margin-top: -900px;
+  margin-left: 420px;
+}
+
+/* line 29, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+#logos2 {
+  margin-top: -900px;
+  margin-left: 740px;
+}
+
+/* line 34, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.logo {
+  width: 270px;
+  height: 125px;
+  margin-top: 25px;
+  margin-left: 20px;
+  background: white;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #ecf0f1;
+}
+/* line 44, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.logo img {
+  margin-top: 23px;
+  margin-left: 23px;
+}
+/* line 49, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.logo .one {
+  width: 110px;
+  height: 110px;
+}
+/* line 54, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.logo .two {
+  width: 110px;
+  height: 110px;
+}
+
+/* line 60, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.two {
+  width: 170px;
+  height: 110px;
+  margin-top: 7px;
+  display: inline-block;
+  background: #458a97;
+}
+
+/* line 68, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.one {
+  width: 170px;
+  height: 110px;
+  margin-top: 7px;
+  margin-left: 24px;
+  display: inline-block;
+  background: #4ad391;
+}
+
+/* line 77, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.fonts {
+  width: 390px;
+  height: 125px;
+  margin-top: 25px;
+  background: white;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #ecf0f1;
+}
+
+/* line 87, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.f_Oleo {
+  font-family: "Oleo Script", sans-serif;
+}
+
+/* line 91, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.f_Lobster {
+  font-family: "Lobster", cursive;
+}
+
+/* line 95, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.f_Sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 99, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.f_Genica {
+  font-family: Genica;
+}
+
+/* line 104, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_primaryText {
+  color: #a1ccd4;
+}
+
+/* line 108, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_secondaryText {
+  color: #5ba6b4;
+}
+
+/* line 112, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_tertiaryText {
+  color: #9ce7c3;
+}
+
+/* line 116, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_quaternaryText {
+  color: #a563c1;
+}
+
+/* line 120, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_quinaryText {
+  color: #4ad391;
+}
+
+/* line 124, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+body {
+  padding: 0;
+  padding-left: calc(50% - 485px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+  background: #458a97;
+}
+
+/* line 133, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+#colors {
+  width: 250px;
+  height: 100px;
+  background: white;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #ecf0f1;
+}
+
+/* line 142, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_primary {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 35px;
+  border: none;
+  background: #458a97;
+}
+
+/* line 152, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.c_secondary {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 15px;
+  border: none;
+  background: #4ad391;
+}
+
+/* line 161, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/pallet.scss */
+.font {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left: 10px;
+}

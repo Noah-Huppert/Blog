@@ -1,0 +1,174 @@
+@import "compass/css3/";
+
+/* Colors */
+$c_1: #458a97;
+$c_2: #4ad391;
+$c_3: #8e44ad;
+$c_4: #e74c3c;
+$cf_1: lighten($c_1, 30%);
+$cf_1-2: lighten($c_1, 10%);
+$cf_2: lighten($c_2, 20%);
+$cf_3: lighten($c_3, 10%);
+$cf_4: lighten($c_4, 10%);
+
+
+
+/* Fonts */
+$f_Oleo: 'Oleo Script', sans-serif;
+$f_Lobster: 'Lobster', cursive;
+$f_Sans: 'Open Sans', sans-serif;
+$f_Genica: Genica;
+
+
+/* Paths */
+$root: 'http://127.0.0.1/Blog4/';
+
+
+/* Images */
+$logo: $root + 'img/logoSplitCirclePrimaryBround.png';
+
+
+/* Clear Styles */
+body{
+	background: $c_1;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
+	@include transition(color 1s);
+}
+
+a:hover{
+	color: lighten($cf_4, 20%) !important;
+}
+
+
+/* Template Styles */
+.noSelect{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.logo{
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	background: url($logo);
+	background-size: 64px 64px;
+}
+
+.current{
+	color: $cf_4 !important;
+}
+
+
+/*Header Styles */
+#header{
+	width: 100%;
+	height: 70px;
+	background: $cf_1-2;
+	border-bottom-style: dotted;
+	border-bottom-color: $cf_1;
+	border-bottom-width: 2px;
+	
+	#title{
+		margin-top: 15px;
+		margin-left: 10%;
+		display: inline-block;
+		font-size: 34px;
+		font-family: $f_Lobster;
+		color: $cf_1;
+	}
+	
+	#pageLocation{
+		@include transition(color 1s);
+	}
+	
+	#title:hover{
+		#pageLocation{
+			color: $cf_4;
+		}
+	}
+	
+	.glyphicon{
+		display: none;
+		font-size: 34px;
+		color: $cf_1;
+		@include transition(color 1s);
+	}
+	
+	.glyphicon:hover{
+		font-size: 34px;
+		color: $cf_4;
+	}
+}
+
+#h_nav{
+	width: 510px;
+	margin-top: -40px;
+	margin-left: calc(80% - 510px);
+	
+	.h_option{
+		height: 40px;
+		line-height: 40px;
+		display: inline-block;
+		margin-left: 15px;
+		vertical-align: bottom;
+		color: $cf_2;
+		font-family: $f_Oleo;
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){/* Medium Scale 1 */
+	#h_nav{
+		margin-left: calc(90% - 510px);
+	}
+}
+
+@media (max-width: 1000px) and (min-width: 920px){/* Medium Scale 2 */
+	#h_nav{
+		margin-left: calc(98% - 510px);
+	}
+}
+
+@media (max-width: 920px) and (min-width: 0px){/* Small Scale */
+	#header{
+		height: auto;
+		
+		#title{
+			width: 100%;
+			text-align: center;
+			margin-left: 0;
+			margin-bottom: 10px;
+		}
+		
+		.glyphicon{
+			display: inline-block;
+			float: right;
+			margin-top: -50px;
+			margin-right: 15px;
+		}
+	}
+	
+	#h_nav[data-expand="false"]{
+		display: none;
+	}
+	
+	#h_nav[data-expand="true"]{
+		width: 200px;
+		margin: auto;
+		display: block;
+		
+		.h_option{
+			display: block;
+		}
+	}
+}

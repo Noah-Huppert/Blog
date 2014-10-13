@@ -1,0 +1,167 @@
+/* Colors */
+/* Fonts */
+/* Paths */
+/* Images */
+/* Clear Styles */
+/* line 32, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+body {
+  background: #458a97;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 38, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+
+/* line 44, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+a:hover {
+  color: #f8c9c4 !important;
+}
+
+/* Template Styles */
+/* line 50, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 59, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+.logo {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background: url("http://127.0.0.1/Blog4/img/logoSplitCirclePrimaryBround.png");
+  background-size: 64px 64px;
+}
+
+/* line 67, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+.current {
+  color: #ed7669 !important;
+}
+
+/*Header Styles */
+/* line 73, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header {
+  width: 100%;
+  height: 70px;
+  background: #5ba6b4;
+  border-bottom-style: dotted;
+  border-bottom-color: #a1ccd4;
+  border-bottom-width: 2px;
+}
+/* line 81, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header #title {
+  margin-top: 15px;
+  margin-left: 10%;
+  display: inline-block;
+  font-size: 34px;
+  font-family: "Lobster", cursive;
+  color: #a1ccd4;
+}
+/* line 90, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header #pageLocation {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+/* line 95, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header #title:hover #pageLocation {
+  color: #ed7669;
+}
+/* line 100, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header .glyphicon {
+  display: none;
+  font-size: 34px;
+  color: #a1ccd4;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+/* line 107, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#header .glyphicon:hover {
+  font-size: 34px;
+  color: #ed7669;
+}
+
+/* line 113, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#h_nav {
+  width: 510px;
+  margin-top: -40px;
+  margin-left: calc(80% - 510px);
+}
+/* line 118, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+#h_nav .h_option {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: bottom;
+  color: #9ce7c3;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 24px;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  /* Medium Scale 1 */
+  /* line 131, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #h_nav {
+    margin-left: calc(90% - 510px);
+  }
+}
+@media (max-width: 1000px) and (min-width: 920px) {
+  /* Medium Scale 2 */
+  /* line 137, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #h_nav {
+    margin-left: calc(98% - 510px);
+  }
+}
+@media (max-width: 920px) and (min-width: 0px) {
+  /* Small Scale */
+  /* line 143, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #header {
+    height: auto;
+  }
+  /* line 146, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #header #title {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  /* line 153, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #header .glyphicon {
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+    margin-right: 15px;
+  }
+
+  /* line 161, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #h_nav[data-expand="false"] {
+    display: none;
+  }
+
+  /* line 165, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #h_nav[data-expand="true"] {
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+  /* line 170, C:/Users/Noah/Noah/Programing/HTML/Blog 4/css/styles.scss */
+  #h_nav[data-expand="true"] .h_option {
+    display: block;
+  }
+}
