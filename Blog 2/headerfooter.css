@@ -1,0 +1,101 @@
+#topBar {
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	background: #FAFAFA;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F2F2F2;
+	font-family: Pompiere;
+}
+#topBarTitle {
+	margin-left: 100px;
+	float: left;
+	font-size: 30px;
+}
+#topBarMenu {
+	margin-right: 100px;
+	float: right;
+}
+.topBarMenuOption {
+	font-size: 24px;
+	margin-right: 20px;
+	float: left;
+}
+#searchBar {
+	width: 20px;
+	height: 20px;
+}
+#searchEntry, input {
+	width: 120px;
+	height: 25px;
+	line-height: 20px;
+	margin-left: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #C4C4C4;
+	border-radius: 10px;
+	outline: none;
+	text-indent: 10px;
+	font-family: Pompiere;
+	float: none;
+}
+.ui-menu-item {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	list-style-type: none;
+	background: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.ui-menu-item:hover {
+	background: #FCFCFC;
+}
+.ui-helper-hidden-accessible {
+	display: none;
+}
+.topBarMenuOption:hover {
+	font-style: italic;
+}
+.bottomBar {
+	width: 100%;
+	color: #E6E6E6;
+	font-family: Yanone Kaffeesatz;
+	background: #1A1A1A;
+}
+#bottomBarGradiant {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#1A1A1A));
+}
+#bottomBarContent {
+	background: #1A1A1A;
+}
+#usageDiscalimer {
+	padding-top: 10px;
+	text-align: center;
+	background: #1A1A1A;
+}
+.bottomBarItem {
+	height: 30px;
+	line-height: 30px;
+	padding-top: 10px;
+	background: #1A1A1A;
+	font-style: italic;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#bottomBarItemsWraper {
+	width: 300px;
+	margin: auto;
+	background: #1A1A1A;
+	height: 1%;
+	overflow: hidden;
+}
